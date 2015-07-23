@@ -13,5 +13,5 @@ exports.answer = function(req, res){
 	}
 };
 exports.author = function(req , res){
-	res.render('quizes/author' , {nombre: "Daniel" , apellidos: "Estremera Lopez", nacionalidad: "española" , nacimiento: "1990" , sexo: "hombre"})
+	res.render('quizes/author' , {nombre: "Daniel" , apellidos: "Estremera Lopez", nacionalidad: "española" , nacimiento: "1990" })
 };
