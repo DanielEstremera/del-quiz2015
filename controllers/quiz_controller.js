@@ -12,4 +12,9 @@ exports.answer = function(req, res){
 		res.render('quizes/answer' , {respuesta: "Incorrecto"});
 	}
 };
+<<<<<<< HEAD
 
+=======
+exports.author = function(req , res){
+	res.render('quizes/author' , {nombre: "Daniel" , apellidos: "Estremera Lopez", nacionalidad: "española" , nacimiento: "1990" })
+};
