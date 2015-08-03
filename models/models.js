@@ -1,7 +1,7 @@
 var path = require('path');
 
 //cargar el modelo ORM
-var Sequelize = require('sequielize');
+var Sequelize = require('sequelize');
 
 //usar BBDD SQlite
 var sequelize = new Sequelize(null, null, null, 
