@@ -37,7 +37,11 @@ var sequelize = new Sequelize(DB_name, user, pwd,
  		if( count === 0){
  			Quiz.create({ pregunta: 'Capital de italia',
  						  respuesta: 'Roma'
- 			}).then(function(){console.log('Base de datos inicializada')});
+ 			});
+ 			Quiz.create({ pregunta: 'Capital de Portugal',
+ 						  respuesta: 'Lisboa'
+ 			});
+ 			.then(function(){console.log('Base de datos inicializada')});
  		};
  	});
  });
