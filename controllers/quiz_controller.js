@@ -19,7 +19,7 @@ exports.answer = function(req, res){
 		if(req.query.respuesta === quiz.respuesta){
 			res.render('quizes/answer' , {quiz: quiz , respuesta: "Correcto"});
 		}else{
-			res.render('quizes/answer' , {respuesta: "Incorrecto"});
+			res.render('quizes/answer' , {quiz: quiz , respuesta: "Incorrecto"});
 		}
 	})
 };

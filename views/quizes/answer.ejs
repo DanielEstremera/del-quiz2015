@@ -1,6 +1,4 @@
 
     
     <h2><%= respuesta %></h2>
-    <% if(respuesta==="Correcto"){ %>
-    <a href="/quizes/<%= quiz.id %>"> Volver</a>
-    <% }else{ %> <a href="/quizes/question">Prueba otra vez</a> <% }%>
+  <a href="/quizes/ <%= quiz.id %>">volver</a>
